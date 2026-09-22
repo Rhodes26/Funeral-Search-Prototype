@@ -1,11 +1,11 @@
 # Funeral Search 
 Originally made for Families searching funeral homes in their local area.
 I built it  almost a year ago..
-Families could directly send message,look at funeral profile cards, and compare prices for information.
+Families could directly send messages to the funeral home, look at funeral profile cards, and compare prices information.
 First time Implemented back end development to my project; Express, Node, SQL (learned as I go) 
 Became complex; Feature Creep; so I removed the dashboard section.
-Made it simple as possible.
-Helped me Learned about Data and Architecture
+This is a striped down version of it.
+Helped me Learned about Data and Architecture.
 #### Home Page 
 <img width="1902" height="856" alt="Fuenral search picture " src="https://github.com/user-attachments/assets/cc73b18e-1b19-475c-8f66-1550143dfbc2" />
 
