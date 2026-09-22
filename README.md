@@ -2,7 +2,7 @@
 Originally made for Families searching funeral homes in their local area.
 I built it  almost a year ago..
 Families could directly send messages to the funeral home, look at funeral profile cards, and compare price information.
-First time Implemented back end development to my project; Express, Node, SQL (learned as I go) 
+First time I Implemented back end development to my project; Express, Node, SQL (learned as I go) 
 Became complex; Feature Creep; so I removed the dashboard section.
 This is a striped down version of it.
 
