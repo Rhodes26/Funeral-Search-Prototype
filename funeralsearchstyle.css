@@ -1,0 +1,132 @@
+body{ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 150px;
+    background-color: #f5f5dc;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+} 
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555555;
+    
+   
+}   
+
+.search-container{
+    max-width: 650px;
+    margin: 10px auto; 
+}
+
+
+
+.search-input-container{
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    overflow: hidden;
+    
+}
+
+#searchInput{
+    border: none;
+    padding: 12px 15px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+     
+    
+   
+} 
+
+
+
+#searchButton {
+    background-color: #0071FF;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;  /* Rounds right side */
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #00a6ff; 
+}
+
+
+
+
+		
+
+
+
+.funeralsearch-btn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #0071FF;
+    border-radius: 5px; 
+    border: none;
+    padding: 10px 15px; 
+    color: white;
+    font-size: 16px; 
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+    
+    
+
+.funeralsearch-btn:hover{
+    background-color: #00a6ff;
+}
+
+
+/*Need to p.*/
+.autocomplete-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+
+.search-results {
+    margin-top: 2rem;
+    padding: 20px;
+    
+}
+.powered-by {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="funeralhomesearch.css">
+</head>
+<body>
+    <header>
+        <h1>Search Results</h1>
+    </header>
+
+    <div class="search-container">
+        <form id="searchForm">
+            <div class="search-input-container">
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Search funeral homes..." 
+                    name="q"
+                    autocomplete="off"
+                    required
+                >
+            </div>
+            <button id="searchButton" type="submit">Search</button>
+        </form>
+        <!--keeping autocorrect outside to prevent bugs and space problems -->
+        <div id="autocomplete" class="autocomplete-box"></div>
+    </div>
+    <!--For Notifcation Alerts-->
+    <div id="notificationPopup" class="popup-hidden">
+        <div class="popup-content">
+            <h2>Note On Price Estimation</h2>
+            <p>Get full pricing from your local funeral home by website or phone.</p>
+            <button id="close-popup">Close</button>
+        </div>  
+    </div> 
+  
+    <!-- Container for results -->
+    <div id="resultsContainer" class="square-widget"></div>
+
+    <!-- Need to update fuse -->
+    
+
+    <script src="funeralhomesearch.js"></script>
+    
+</body>
+</html>

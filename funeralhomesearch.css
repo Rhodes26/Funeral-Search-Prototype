@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:#f5f5dc;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+
+
+
+/*Notification Alert box*/
+#notificationPopup{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto !important;
+}
+
+.popup-hidden {
+    display: none !important;
+}
+
+.popup-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/*profile box*/
+#resultsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Increased gap between items */
+    padding: 20px;
+    background-color: #f5f5f5; /* Lighter background */
+}
+
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.normal-search-link {
+    text-decoration: none;
+    color: #0071FF;
+    font-weight: bold;
+}
+
+/* Style for individual result items */
+.result-item {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.result-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+/*Might delete this one*/
+.gpl-section {
+    margin-top: 10px;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: #e9ecef;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+/* Different styling for claimed vs unclaimed profiles  */
+.claimed-profile {
+    background: linear-gradient(to right, #ffffff, #f0f7ff);
+    border: 2px solid #4CAF50;
+}
+
+.unclaimed-profile {
+    background: linear-gradient(to right, #ffffff, #fff9e6);
+    border: 1px solid #FFC107;
+}
+
+
+
+/* Profiles setup, logo, and badges*/
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.claimed-badge, .unclaimed-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.claimed-badge {
+    background: #4CAF50;
+    color: white;
+}
+
+.unclaimed-badge {
+    background: #FFC107;
+    color: #333;
+}
+
+.profile-details {
+    line-height: 1.6;
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
+
+/* Additional spacing for content sections */
+.profile-details.basic {
+    opacity: 0.8;
+}
+/*buttons customization*/
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.website-btn, .message-btn, .claim-btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+.website-btn {
+    background: #0071FF;
+    color: white;
+    text-decoration: none;
+}
+
+.claim-btn {
+    background: #FFC107;
+    color: #333;
+}
+
+/* Search container styles */
+.search-container {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-input-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#searchInput {
+    width: 98%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+#searchButton:hover {
+    background: #0056b3;
+}
+
+#searchForm {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Separator between sections */
+.result-item hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid#eee;
+}
+
+/* Hover effects */
+.result-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+
+
