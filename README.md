@@ -1,5 +1,5 @@
 # Funeral Search 
-Originally purposed for Families searching funeral homes in their local area.
+Originally made for Families searching funeral homes in their local area.
 I built it  almost a year ago..
 Families could directly send message, or look at funeral profile cards for information.
 First time Implemented back end development to my project; Express, Node, SQL (learned as I go) 
