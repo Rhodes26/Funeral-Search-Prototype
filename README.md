@@ -14,10 +14,10 @@ This is a striped down version of it.
 <img width="953" height="397" alt="Search F S" src="https://github.com/user-attachments/assets/1f0d14c0-49f5-4c38-949f-0801e50e4448" />
 
 #Architecture and How it Works 
--**Client Request:** the user enters the search query on frontend interface. 
--**Asynchronous Fetch:** JavaScript intercepts the profile using GET from express js, while express fetch api endpoint.
--**Database:**  express server request from sqlite database to select the following data.
+- **Client Request:** the user enters the search query on frontend interface. 
+- **Asynchronous Fetch:** JavaScript intercepts the profile using GET from express js, while express fetch api endpoint.
+- **Database:**  express server request from sqlite database to select the following data.
 
 #Data Handling# 
--**Mockdataset:** Populated sqlite database with placeholders (example *Letter A Funeral Home* with simulated links, service details etc) to safely test search queries.
--**Gitignore:** extra layer of precaution.
+- **Mockdataset:** Populated sqlite database with placeholders (example *Letter A Funeral Home* with simulated links, service details etc) to safely test search queries.
+- **Gitignore:** extra layer of precaution.
